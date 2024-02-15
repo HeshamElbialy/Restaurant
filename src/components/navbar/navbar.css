@@ -1,0 +1,58 @@
+.navbar {
+  background: #121618;
+}
+
+.navbar .navbar-toggler {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .container .icon {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.navbar .container a {
+  color: #fff;
+}
+
+.navbar .container .icon svg {
+  color: var(--main-color);
+  font-size: 35px;
+}
+
+.navbar .container .box2 {
+  margin-top: -20px;
+
+}
+
+.navbar .container .box2 small {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.navbar .container ul li {
+  margin-right: 40px ;
+}
+
+.navbar .container ul li a {
+  color: #fff;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.navbar .container ul li a:hover {
+  color: var(--main-color);
+}

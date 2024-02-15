@@ -1,0 +1,49 @@
+.states {
+  background: url("../../assets/bg_2.jpg.webp");
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+  background-position: center center;
+}
+
+.states .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.8;
+}
+
+.states .states-container .box {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.states .states-container .box .icon {
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--main-color);
+  margin: 10px auto;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.states .states-container .box .icon svg {
+  color: var(--main-color);
+  font-size: 50px;
+}
+
+.states .states-container .box .text-box h5 {
+  color: var(--main-color);
+  font-size: 30px;
+}
+
+.states .states-container .box .text-box small {
+  color: #777;
+  font-size: 18px;
+}

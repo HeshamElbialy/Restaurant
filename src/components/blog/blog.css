@@ -1,0 +1,56 @@
+.blog {
+  padding: 100px 0;
+}
+
+.blog .blog__head h2 {
+  color: #fff;
+}
+
+.blog .blog__head span {
+  color: #777;
+}
+
+.blog .blog-container .card {
+  background: transparent;
+  border: none;
+}
+
+.blog .blog-container .card .image-box img {
+  height: 300px;
+  background-position: center center;
+}
+
+.blog .blog-container .card .card-body .date span:nth-child(1),
+.blog .blog-container .card .card-body .date span:nth-child(2),
+.blog .blog-container .card .card-body .date span:nth-child(3) {
+  color: #777;
+}
+
+.blog .blog-container .card .card-body .date span:nth-child(2) {
+  margin: 0 5px;
+}
+
+.blog .blog-container .card .card-body .date span:nth-child(3) svg {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.blog .blog-container .card .card-body h5 {
+  cursor: pointer;
+  color: #fff;
+  margin: 5px 0 15px 0;
+  text-transform: capitalize;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.blog .blog-container .card .card-body h5:hover {
+  color: var(--main-color);
+}
+
+.blog .blog-container .card .card-body p {
+  color: #777;
+}

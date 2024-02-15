@@ -1,0 +1,45 @@
+.dates {
+  margin: 100px 0;
+}
+
+.dates .dates-container .text-box h2 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.dates .dates-container table td,
+.dates .dates-container table th,
+.dates .dates-container table tr {
+  background: transparent !important;
+  color: #fff;
+  padding-bottom: 20px;
+  border-bottom: none;
+}
+
+.dates .dates-container table .btn {
+  color: #000000;
+  border: 1px solid var(--main-color);
+  background: var(--main-color);
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.dates .dates-container table .btn:hover {
+  background: transparent;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+
+@media (max-width: 767px) {
+  .dates .dates-container table {
+    width: 100%;
+  }
+}

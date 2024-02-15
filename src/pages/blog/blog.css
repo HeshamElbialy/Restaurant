@@ -1,0 +1,56 @@
+.blogPage {
+  padding-bottom: 100px;
+}
+
+.blogPage .blog__head h2 {
+  color: #fff;
+}
+
+.blogPage .blogPage span {
+  color: #777;
+}
+
+.blogPage .blogPage-container .card {
+  background: transparent;
+  border: none;
+}
+
+.blogPage .blogPage-container .card .image-box img {
+  height: 300px;
+  background-position: center center;
+}
+
+.blogPage .blogPage-container .card .card-body .date span:nth-child(1),
+.blogPage .blogPage-container .card .card-body .date span:nth-child(2),
+.blogPage .blogPage-container .card .card-body .date span:nth-child(3) {
+  color: #777;
+}
+
+.blogPage .blogPage-container .card .card-body .date span:nth-child(2) {
+  margin: 0 5px;
+}
+
+.blogPage .blogPage-container .card .card-body .date span:nth-child(3) svg {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.blogPage .blogPage-container .card .card-body h5 {
+  cursor: pointer;
+  color: #fff;
+  margin: 5px 0 15px 0;
+  text-transform: capitalize;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.blogPage .blogPage-container .card .card-body h5:hover {
+  color: var(--main-color);
+}
+
+.blogPage .blogPage-container .card .card-body p {
+  color: #777;
+}

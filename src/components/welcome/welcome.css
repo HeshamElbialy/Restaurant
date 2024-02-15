@@ -1,0 +1,70 @@
+.welcome .welcome-container .right-side {
+  padding-left: 30px;
+  max-width: 700px;
+  margin: 100px auto;
+}
+
+.welcome .welcome-container .right-side h2 {
+  margin-bottom: 30px;
+}
+
+.welcome .welcome-container .right-side h2 span {
+  color: var(--main-color);
+}
+
+.welcome .welcome-container .right-side h2 span svg {
+  margin-bottom: 10px;
+  margin-right: -10px;
+}
+
+.welcome .welcome-container .right-side p {
+  color: #777;
+}
+
+@media (max-width: 576px) {
+  .welcome .welcome-container .right-side {
+    margin: 0px auto;
+  }
+  .welcome .welcome-container .right-side {
+    padding-left: 20px;
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .welcome .welcome-container .right-side {
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .welcome .welcome-container .right-side {
+    margin: 50px auto;
+  }
+  .welcome .welcome-container .left-side,
+  .welcome .welcome-container .left-side .image-box,
+  .welcome .welcome-container .left-side .image-box img {
+    height: 100% !important;
+  }
+  .welcome .welcome-container .right-side {
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .welcome .welcome-container .right-side {
+    margin: 50px auto;
+  }
+  .welcome .welcome-container .left-side,
+  .welcome .welcome-container .left-side .image-box,
+  .welcome .welcome-container .left-side .image-box img {
+    height: 100% !important;
+  }
+  .welcome .welcome-container .right-side {
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+  }
+}

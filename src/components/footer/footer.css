@@ -1,0 +1,120 @@
+.footer {
+  background: #101315;
+  padding: 100px 0;
+}
+
+.footer .footer-container h6 {
+  margin-bottom: 50px;
+}
+
+.footer .footer-container .about-col p {
+  width: 250px;
+  margin: 20px 0 40px 0;
+  color: #777;
+  font-size: 18px;
+}
+
+.footer .footer-container .about-col .social-box svg {
+  margin-right: 20px;
+  font-size: 50px;
+  background: #1c1f21;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer .footer-container .blog-col .box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.footer .footer-container .blog-col .box .image-box img {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.footer .footer-container .blog-col .box .details-box p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.footer .footer-container .blog-col .box .details-box p:hover {
+  color: var(--main-color);
+}
+
+.footer .footer-container .blog-col .details-box .date span {
+  color: #777;
+  font-size: 13px;
+}
+
+.footer .footer-container .blog-col .details-box .date span:nth-child(2) {
+  margin: 0 10px;
+}
+
+.footer .footer-container .blog-col .details-box .date span svg {
+  color: #fff;
+}
+
+.footer .footer-container .serv-box ul {
+  padding-left: 0;
+}
+
+.footer .footer-container .serv-box ul li {
+  margin-bottom: 10px;
+  color: #777;
+  font-size: 18px;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.footer .footer-container .serv-box ul li:hover {
+  color: #fff;
+}
+
+.footer .footer-container .question .details-box ul {
+  padding-left: 0;
+}
+
+.footer .footer-container .question .details-box ul li {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.footer .footer-container .question .details-box ul li svg {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.footer .footer-container .question .details-box ul li {
+  color: #777;
+  font-size: 18px;
+}
+
+.footer .footer-container .copyright {
+  text-align: center;
+  margin: 80px 0 50px 0;
+  font-size: 18px;
+  color: #777;
+}
+
+.footer .footer-container .copyright span {
+  color: var(--main-color);
+  font-family: var(--secondary-font);
+}

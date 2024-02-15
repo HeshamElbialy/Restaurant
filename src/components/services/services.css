@@ -1,0 +1,32 @@
+.services {
+  background: url("../../assets/food.png.webp") repeat;
+  color: var(--primary-color);
+  padding: 100px 0;
+}
+
+.services .services-container .box {
+  text-align: center;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.services .services-container .box .icon svg {
+  font-size: 40px;
+  border: 1px solid var(--primary-color);
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+}
+
+.services .services-container .box .text-box h4 {
+  margin: 40px 0;
+  font-size: 20px;
+  color: #000;
+}
+
+.services .services-container .box .text-box p {
+  color: #5c3d03;
+}

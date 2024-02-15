@@ -1,0 +1,79 @@
+.tabs .tabs-container .nav {
+  border-bottom: none;
+}
+
+.tabs .tabs-container .nav .nav-link {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.tabs .tabs-container .nav .active {
+  background: var(--main-color);
+  color: #000;
+}
+
+.tabs .tabs-container .tabs-left,
+.tabs .tabs-container .tabs-left .image-box,
+.tabs .tabs-container .tabs-left .image-box img {
+  height: 100% !important;
+}
+
+.tabs .tabs-container .tabs-right {
+  padding: 20px;
+}
+
+.tabs .tabs-container .tabs-right .box {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tabs .tabs-container .tabs-right .image-box img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0 auto;
+}
+
+.tabs .tabs-container .tabs-right .info-box h4 {
+  margin: 20px;
+}
+
+.tabs .tabs-container .tabs-right .info-box small {
+  color: #777;
+  font-size: 17px;
+  display: block;
+}
+
+.tabs .tabs-container .tabs-right .info-box span {
+  color: var(--main-color);
+  margin: 20px 0;
+  display: block;
+}
+
+.tabs .tabs-container .tabs-right .info-box a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.tabs .tabs-container .tabs-right .info-box a:hover {
+  border: 1px solid var(--main-color);
+  background: var(--main-color);
+  color: #000;
+}

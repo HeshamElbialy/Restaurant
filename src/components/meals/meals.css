@@ -1,0 +1,105 @@
+.meals {
+  padding: 100px 0;
+}
+
+.meals .meals__head h2 {
+  color: #fff;
+}
+
+.meals .meals__head span {
+  color: #777;
+}
+
+.meals .meals-container .box {
+  display: flex;
+  background: #0e0c1071;
+}
+
+.meals .meals-container .box-4,
+.meals .meals-container .box-5,
+.meals .meals-container .box-6 {
+  flex-direction: row-reverse;
+}
+
+.meals .meals-container .box-4 {
+  gap: 0;
+}
+
+.meals .meals-container .box,
+.meals .meals-container .box .image-box,
+.meals .meals-container .box .image-box img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.meals .meals-container .text-box {
+  padding: 20px;
+  width: 93%;
+}
+
+.meals .meals-container .text-box h4 {
+  font-size: 18px;
+}
+
+.meals .meals-container .text-box p {
+  color: #777;
+  font-size: 16px;
+  /* max-width: 150px; */
+}
+
+.meals .meals-container .text-box .button {
+  display: flex;
+  align-items: center;
+}
+
+.meals .meals-container .text-box .button h6 {
+  color: var(--main-color);
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.meals .meals-container .text-box .button a {
+  color: #fff;
+  text-transform: capitalize;
+  border: 1px solid #fff;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.meals .meals-container .text-box .button a:hover {
+  color: #000;
+  border: 1px solid var(--main-color);
+  background: var(--main-color);
+}
+
+@media (max-width: 992px) {
+  .meals .meals-container .box-4,
+  .meals .meals-container .box-5,
+  .meals .meals-container .box-6 {
+    flex-direction: row;
+  }
+  .meals .meals-container .columnBox {
+    margin-bottom: 30px;
+    height: 30vh !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .meals .meals-container .text-box {
+    padding: 10px;
+    width: 94%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .meals .meals-container .text-box {
+    padding: 20px;
+    width: 92%;
+  }
+}

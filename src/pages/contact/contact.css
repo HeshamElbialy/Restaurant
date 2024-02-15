@@ -1,0 +1,75 @@
+.contact .contact-container {
+  margin: 100px auto;
+}
+
+.contact .contact-container .info-box p {
+  margin: 35px 0;
+  font-size: 17px;
+}
+
+.contact .contact-container .info-box p .address {
+  color: #777;
+}
+
+.contact .contact-container .info-box p span {
+  color: var(--main-color);
+}
+
+.contact .contact-container .form div {
+  padding: 25px;
+}
+
+.contact .contact-container .form div:nth-child(1) input:nth-child(1) {
+  margin-right: 20px;
+}
+
+.contact .contact-container .form div input {
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.9) !important;
+  transition: var(--transition);
+}
+
+.contact .contact-container .form div input::placeholder {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.contact .contact-container .form div input:focus {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.contact .contact-container .form div textarea {
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.9) !important;
+  transition: var(--transition);
+}
+
+.contact .contact-container .form div textarea::placeholder {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.contact .contact-container .form div textarea:focus {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.contact .contact-container .form .button button {
+  border: 1px solid var(--main-color);
+  padding: 15px 30px;
+  color: #000;
+  background: var(--main-color);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.contact .contact-container .form .button button:hover {
+  background: transparent;
+  color: #fff;
+}

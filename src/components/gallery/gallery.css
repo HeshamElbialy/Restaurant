@@ -1,0 +1,11 @@
+.gallery {
+  padding: 100px 0 0 0;
+}
+
+.gallery .gallery-container .image-box {
+  height: 100%;
+}
+
+.gallery .gallery-container .image-box img {
+  height: 100%;
+}

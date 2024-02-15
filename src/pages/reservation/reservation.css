@@ -1,0 +1,85 @@
+.reservation .head {
+  margin: 100px 0;
+}
+
+.reservation .head h3 {
+  color: var(--main-color);
+  font-size: 70px;
+  font-family: var(--secondary-font);
+}
+
+.reservation .head h2 {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  transform: translateY(-45px);
+  -webkit-transform: translateY(-45px);
+  -moz-transform: translateY(-45px);
+  -ms-transform: translateY(-45px);
+  -o-transform: translateY(-45px);
+}
+
+.reservation .reservation-container {
+  margin: 100px auto;
+}
+
+.reservation .reservation-container .form div {
+  padding: 25px;
+  width: 100%;
+}
+
+.reservation .reservation-container form p {
+  margin-top: 15px;
+  color: var(--main-color) !important;
+}
+
+.reservation .reservation-container .form div input {
+  width: 30vw;
+  padding: 15px;
+  background: transparent;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.9) !important;
+  transition: var(--transition);
+}
+
+.reservation .reservation-container .form div input::placeholder {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.reservation .reservation-container .form div input:focus {
+  border-bottom: 1px solid var(--main-color);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+  -webkit-filter: brightness(0) invert(1);
+}
+
+.reservation .reservation-container form .button button {
+  margin-top: 30px;
+  border: 1px solid var(--main-color);
+  padding: 15px 50px;
+  color: #000;
+  background: var(--main-color);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.reservation .reservation-container form .button button:hover {
+  background: transparent;
+  color: var(--main-color);
+}
+
+@media (max-width: 767px) {
+  .reservation .reservation-container .box {
+    flex-direction: column;
+  }
+  .reservation .reservation-container .form div input {
+    width: 100%;
+  }
+}

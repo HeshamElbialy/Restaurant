@@ -1,0 +1,57 @@
+.login {
+  margin: 100px 0;
+}
+
+.login .login-container {
+  text-align: center;
+}
+
+.login .login-container input {
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.login .login-container .pass svg {
+  display: none !important;
+}
+
+.login .login-container input::placeholder {
+  color: #fff;
+}
+
+.login .login-container input:focus {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.login .login-container button {
+  margin-top: 20px;
+  border: 1px solid var(--main-color);
+  padding: 15px 50px;
+  color: #000;
+  background: var(--main-color);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.login .login-container button:hover {
+  background: transparent;
+  color: var(--main-color);
+}
+
+.login .login-container form .error {
+  color: var(--secondary-color);
+}
